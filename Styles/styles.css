@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.primary-color {
+    color: #fd6e0a;
+}
+
+.primary-button {
+    height: 45px;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px 35px;
+    background: #fd6e0a;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+}
