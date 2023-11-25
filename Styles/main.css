@@ -3,6 +3,7 @@ main {
     margin: 0 auto;
 }
 
+/* ABOUT ME SECTION */
 .about-me {
     border-radius: 10px;
     background: #fff8f3;
@@ -14,17 +15,16 @@ main {
 .about-title {
     font-size: 35px;
     font-weight: 700;
-    color: #181818;
-
+    color: var(--Dark-01, #181818);
     margin-bottom: 30px;
 }
 
 .about-description {
     color: #757575;
-
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 30px;
+    line-height: 30px;
 }
 
 .about-info-container {
@@ -42,7 +42,74 @@ main {
 }
 
 .about-info-description {
-    color:#474747;
+    color: #474747;
     font-size: 18px;
     font-weight: 700;
 }
+
+/* WHAT I DO SECTION */
+
+.what-i-do {
+    margin-top: 130px;
+    text-align: center;
+}
+.what-i-do-title {
+    font-size: 35px;
+    font-weight: 700;
+    color: var(--Dark-01, #181818);
+    margin-bottom: 30px;
+}
+
+.what-i-do-description {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 115px;
+    padding-right: 115px;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.skills {
+    margin-top: 50px;
+    display: flex;
+    gap: 24px;
+}
+
+.skills-container {
+    text-align: left;
+    border-radius: 5px;
+    background: #ffff;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+
+.skill-title {
+    color: var(--Dark-01, #181818);
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    color: var(--Dark-03, #757575);
+    font-size: 16px;
+    line-height: 28px;
+}
+
+/* RESUME SECTION */
+
+
+.resume-section{
+    display: flex;
+}
+.resume-title {
+    margin-top: 130px;
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+
