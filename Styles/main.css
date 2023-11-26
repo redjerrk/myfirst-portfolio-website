@@ -100,9 +100,10 @@ main {
 
 /* RESUME SECTION */
 
-
-.resume-section{
+.resume-container {
     display: flex;
+    gap: 24px;
+    
 }
 .resume-title {
     margin-top: 130px;
@@ -110,6 +111,42 @@ main {
     text-align: center;
     font-size: 35px;
     font-weight: 700;
+    margin-bottom: 113px;
 }
 
+.resume-subtitle {
+    color: var(--Dark-02, #474747);
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-subsection-title {
+    color: var(--Dark-02, #474747);
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 30px;
+}
 
+.resume-subsection{
+    border-bottom: 1px solid #D1D1D1;
+}
+
+.resume-subsection-institute {
+    color: var(--Dark-03, #757575);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.resume-subsection-description {
+    color: var(--Dark-03, #757575);
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+.cv-button{
+    margin-top: 50px;
+    text-align:  center;
+    margin-bottom: 113px;
+}
