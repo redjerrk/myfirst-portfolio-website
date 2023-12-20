@@ -17,3 +17,33 @@
     font-size: 20px;
     font-weight: 700;
 }
+
+.contact-button {
+    height: 45px;
+    margin-left: 10px;
+    border: 2px solid #fd6e0a;
+    border-radius: 5px;
+    padding: 5px 35px;
+    background: #ffffff00;
+    color: #fd6e0a;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .primary-button {
+        padding: 5px 25px;
+        font-size: 15px;
+        
+        
+    }
+    
+    .contact-button{
+        padding: 5px 25px;
+        font-size: 15px;
+    }
+}

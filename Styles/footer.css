@@ -1,16 +1,15 @@
 .footer-section {
     background: #fff8f3;
     display: flex;
-    gap: 117px;
-    padding: 130px 200px;
+    gap: 100px;
+    padding: 130px;
+    justify-content: space-evenly;
 }
 
-.social{
-    margin-top: 30px;
-    display: flex;
-    gap: 24px;
+.footer-container {
+    padding: 20px;
+    width: 50%;
 }
-
 .footer-title {
     color: var(--Dark-01, #181818);
     font-size: 35px;
@@ -22,10 +21,16 @@
     color: var(--Dark-02, #474747);
     font-size: 16px;
     line-height: 28px;
-    width: 562px;
+    /* width: 562px; */
+}
+.social {
+    margin-top: 30px;
+    display: flex;
+    gap: 24px;
 }
 
-input[type ="text"], input[type ="email"] {
+input[type="text"],
+input[type="email"] {
     height: 64px;
     padding-left: 30px;
     color: var(--Dark-03, #757575);
@@ -49,4 +54,28 @@ textarea {
     margin-bottom: 24px;
     width: 100%;
     resize: none;
+}
+
+@media screen and (max-width: 576px) {
+    .footer-section {
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+    .footer-container {
+        width: 80%;
+    }
+    .contact-me-form {
+        padding-right: 20px;
+    }
+
+    input[type="submit"] {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .footer-section {
+        flex-direction: row;
+        padding: 10px 20px;
+    }
 }

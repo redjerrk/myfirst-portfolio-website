@@ -1,6 +1,7 @@
-.header{
-    background-color: #FFF8F3;
-    background-image: url(../Assets/images/header_bg.png), url(../Assets/images/developer.png);
+.header {
+    background-color: #fff8f3;
+    background-image: url(../Assets/images/header_bg.png),
+        url(../Assets/images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left;
 }
@@ -32,6 +33,49 @@
 .banner-description {
     color: #757575;
     font-size: 18px;
-    width: 585px;
+    width: 100%;
     margin-bottom: 30px;
+}
+
+@media screen and (max-width: 576px) {
+    .header {
+        background-image: none;
+    }
+    .banner {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px 20px;
+    }
+    .banner-main {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        align-items: center;
+    }
+
+    .banner-subtitle {
+        color: #474747;
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+    .banner-title {
+        color: #181818;
+        font-size: 35px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .banner-description {
+        color: #757575;
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .banner-image {
+        height: 80%;
+        width:50%;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
 }
